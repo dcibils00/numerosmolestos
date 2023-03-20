@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Números Molestos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Números Molestos</h1>
+      <h3>Quien es el rompehuevos que me llama?</h3>
+      <br>
+
+      <form>
+        <label for="phone-number">Número de Teléfono:</label>
+        <input type="tel" id="phone-number" name="phone-number" required />
+        <div class="button-container">
+          
+            <button type="button" id="verify-button">
+              Verificar si está en la Lista
+            </button>
+
+            <button type="submit">Agregar a la Lista</button>
+          </div>
+
+      </form>
+      <div id="blacklist"></div>
+    </div>
+    <footer>
+        <p>Coded by Diego Cibils with ChatGPT in 2023</p>
+      </footer>
+    <script src="script.js"></script>
+  </body>
+
+</html>
